@@ -11,7 +11,7 @@
           1,
           null,
           1,
-          0,
+          1,
           null,
           null,
           1,
@@ -23,8 +23,18 @@
         "lines": [
 
         ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/viewing_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1583760305
+    "timestamp": 1583760502
   }
 }

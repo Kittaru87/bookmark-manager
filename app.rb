@@ -6,7 +6,7 @@ class BookmarkManager < Sinatra::Base
   enable :sessions
 
   get '/' do
-    'Hello World'
+    'Bookmark Manager'
   end
 
   run! if app_file == $0
