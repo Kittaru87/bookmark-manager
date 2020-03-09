@@ -1,0 +1,30 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/sbell/Documents/Makers/bookmark-manager/app.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/bookmark_spec.rb": {
+        "lines": [
+
+        ]
+      }
+    },
+    "timestamp": 1583760305
+  }
+}

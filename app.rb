@@ -1,8 +1,13 @@
 require 'sinatra'
 
 
-class Bookmark < Sinatra::Base
+class BookmarkManager < Sinatra::Base
 
+  enable :sessions
+
+  get '/' do
+    'Hello World'
+  end
 
   run! if app_file == $0
 
