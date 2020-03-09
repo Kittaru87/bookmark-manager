@@ -22,4 +22,4 @@ So that I may view my favourite websites quickly
 I would like to see a list of my bookmarks
 ```
 ## Domain Model
-![Bookmark Manager domain model](./public/imagers/Bookmark-manager-dm.png)
+![Bookmark Manager domain model](./public/images/Bookmark-manager-dm.png)
