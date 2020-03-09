@@ -4,11 +4,14 @@ feature 'Viewing bookmarks' do
     expect(page).to have_content "Bookmark Manager"
   end
 
-  scenario 'viewing our list of bookmarks' do
-    bookmarks = Bookmark.all
-    expect(bookmarks).to include("http://www.makersacademy.com")
-    expect(bookmarks).to include("http://www.destroyallsoftware.com")
-    expect(bookmarks).to include("http://www.google.com")
+end
+
+feature 'Viewing bookmarks' do
+  scenario 'A user can see bookmarks' do
+    visit('/bookmarks')
+
+    expect(page).to have_content "http://www.makersacademy.com"
+    expect(page).to have_content "http://www.destroyallsoftware.com"
+    expect(page).to have_content "http://www.google.com"
   end
- 
 end
