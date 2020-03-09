@@ -41,3 +41,14 @@ I would like to add the site's address and title to bookmark manager
 2. Create the database using the psql command CREATE DATABASE bookmark_manager;
 3. Connect to the database using the pqsl command \c bookmark_manager;
 4. Run the query we have saved in the file 01_create_bookmarks_table.sql
+
+**Installing the program**
+1. Requires Ruby. Instructions to install are [here](https://www.ruby-lang.org/en/documentation/installation/).
+2. Fork this repo, and clone to your local machine
+3. Run the command `gem install bundle`
+4. When the installation completes, run `bundle` 
+5. Navigate to the root folder and input 
+```rackup```
+This will show you the port that you should use in your browser (in this case it is `port=9292`).
+6. This program requires Firefox. Input the following into your Firefox brower:
+```http://localhost:9292/```
