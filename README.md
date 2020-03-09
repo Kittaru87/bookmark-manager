@@ -51,6 +51,7 @@ To set up the appropriate tables, connect to each database in `psql` and run the
 **To run the Bookmark Manager app:**
 3. Connect to the database using the pqsl command `\c bookmark_manager;`
 4. Run the query we have saved in the file `01_create_bookmarks_table.sql`
+5. Run the next saved file `02_add_title_to_bookmarks.sql`
 
 **Installing the program**
 1. Requires Ruby. Instructions to install are [here](https://www.ruby-lang.org/en/documentation/installation/).

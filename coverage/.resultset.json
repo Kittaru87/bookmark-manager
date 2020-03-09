@@ -6,6 +6,27 @@
           null,
           null,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           1,
           1,
@@ -15,22 +36,22 @@
           1,
           1,
           1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/database_helpers.rb": {
+        "lines": [
+          null,
           null,
           1,
           null,
           1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
+          0,
+          0,
+          0,
           null
         ]
       },
@@ -38,6 +59,7 @@
         "lines": [
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -81,6 +103,6 @@
         ]
       }
     },
-    "timestamp": 1583770835
+    "timestamp": 1583776264
   }
 }
