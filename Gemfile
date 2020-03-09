@@ -13,3 +13,4 @@ ruby '2.6.3'
   gem 'rubocop-rails'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
+  gem 'pg'
