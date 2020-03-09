@@ -24,6 +24,10 @@ I would like to see a list of my bookmarks
 As a time-pressed user
 So that I can save a website
 I would like to add the site's address and title to bookmark manager
+
+As a user
+So that I may save bookmark data for later retrieval
+I would like to add a new bookmark to bookmark manager
 ```
 ## Domain Model
 ![Bookmark Manager domain model](./public/Bookmark-manager-dm.png)

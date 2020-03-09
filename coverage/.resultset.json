@@ -3,36 +3,62 @@
     "coverage": {
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/bookmark_spec.rb": {
         "lines": [
-          1,
           null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
           null,
           1,
           null,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           null,
           null,
           null
         ]
       },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/creating_bookmark_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
           1,
           1,
           1,
-          null,
           null,
           null,
           null,
@@ -55,6 +81,6 @@
         ]
       }
     },
-    "timestamp": 1583769319
+    "timestamp": 1583770835
   }
 }
