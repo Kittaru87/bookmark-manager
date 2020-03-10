@@ -28,6 +28,10 @@ I would like to add the site's address and title to bookmark manager
 As a user
 So that I may save bookmark data for later retrieval
 I would like to add a new bookmark to bookmark manager
+
+As a user
+So I can remove my bookmark from Bookmark Manager
+I want to delete a bookmark
 ```
 ## Domain Model
 ![Bookmark Manager domain model](./public/Bookmark-manager-dm.png)
@@ -41,17 +45,17 @@ I would like to add a new bookmark to bookmark manager
 
 ## Installation instructions
 **Setting up the databases**
-1. Connect to `psql` and create the `bookmark_manager` and `bookmark_manager_test` databases:
+Connect to `psql` and create the `bookmark_manager` and `bookmark_manager_test` databases:
 ```
 CREATE DATABASE bookmark_manager;
 CREATE DATABASE bookmark_manager_test;
 ```
-To set up the appropriate tables, connect to each database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
-
-**To run the Bookmark Manager app:**
-3. Connect to the database using the pqsl command `\c bookmark_manager;`
-4. Run the query we have saved in the file `01_create_bookmarks_table.sql`
-5. Run the next saved file `02_add_title_to_bookmarks.sql`
+To set up the appropriate tables, connect to each database in `psql` 
+``` 
+\c bookmark_manager;
+\c bookmark_manager_test;
+```
+ Run the SQL scripts in the `db/migrations` folder in the given order.
 
 **Installing the program**
 1. Requires Ruby. Instructions to install are [here](https://www.ruby-lang.org/en/documentation/installation/).

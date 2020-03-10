@@ -2,6 +2,7 @@
 
 require_relative './setup_test_database'
 
+ENV['RACK_ENV'] = 'test'
 ENV['ENVIRONMENT'] = 'test'
 
 require 'capybara'

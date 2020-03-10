@@ -39,6 +39,16 @@
           1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -66,6 +76,24 @@
           1,
           1,
           null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/deleting_bookmark_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
           1,
           null,
           null
@@ -103,6 +131,6 @@
         ]
       }
     },
-    "timestamp": 1583776264
+    "timestamp": 1583858283
   }
 }
