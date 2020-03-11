@@ -2,6 +2,7 @@
 
 require 'sinatra'
 require './lib/bookmark'
+require './lib/database_connection_setup.rb'
 
 class BookmarkManager < Sinatra::Base
   enable :sessions, :method_override
@@ -40,4 +41,5 @@ class BookmarkManager < Sinatra::Base
   end
 
   run! if app_file == $PROGRAM_NAME
+
 end
