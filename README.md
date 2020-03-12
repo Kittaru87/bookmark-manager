@@ -53,6 +53,10 @@ As a user
 So that I can find relevant bookmarks
 I want to filter Bookmarks by a Tag
 
+As a user
+So that I can have a personalised bookmark list
+I want to sign up with my email address
+
 ```
 ## Domain Model
 ![Bookmark Manager domain model](./public/Bookmark-manager-dm.png)
@@ -86,7 +90,7 @@ To set up the appropriate tables, connect to each database in `psql`
 5. Navigate to the root folder and input 
 ```rackup```
 This will show you the port that you should use in your browser (in this case it is `port=9292`).
-6. This program requires Firefox. Input the following into your Firefox brower:
+6. Input the following into your browser:
 ```http://localhost:9292/```
 
 ### Possible improvements

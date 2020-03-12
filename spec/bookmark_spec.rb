@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require 'bookmark'
+require 'tag'
+require 'bookmark_tag'
 require 'database_helpers'
 
 describe Bookmark do

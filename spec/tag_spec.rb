@@ -3,6 +3,7 @@
 require 'tag'
 require 'bookmark'
 require 'bookmark_tag'
+require 'database_helpers'
 
 describe Tag do
   let(:bookmark_class) { double(:bookmark_class) }

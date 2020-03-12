@@ -7,6 +7,8 @@
           null,
           1,
           1,
+          1,
+          1,
           null,
           1,
           1,
@@ -131,7 +133,7 @@
           1,
           null,
           1,
-          4,
+          5,
           null
         ]
       },
@@ -343,6 +345,20 @@
           null
         ]
       },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/registration_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/updating_bookmark_spec.rb": {
         "lines": [
           null,
@@ -402,6 +418,7 @@
         "lines": [
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -474,8 +491,43 @@
           null,
           null
         ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1584034660
+    "timestamp": 1584050804
   }
 }

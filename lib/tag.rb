@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'database_connection'
+require_relative './bookmark'
 
 class Tag
   def self.create(content:)
