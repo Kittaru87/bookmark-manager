@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
 require 'sinatra'
+require 'sinatra/flash'
 require './lib/bookmark'
 require './lib/database_connection_setup.rb'
+require 'uri'
 
 class BookmarkManager < Sinatra::Base
   enable :sessions, :method_override
+  register Sinatra::Flash
 
   get '/' do
     'Bookmark Manager'
@@ -21,8 +24,9 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/bookmarks/new' do
-    Bookmark.create(url: params[:url], title: params[:title])
-    redirect '/bookmarks'
+    flash[:notice] = "You must submit a valid URL." unless Bookmark.create(url: params[:url], title: params[:title])
+
+    redirect('/bookmarks')
   end
 
   delete '/bookmarks/:id' do

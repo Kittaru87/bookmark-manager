@@ -36,6 +36,10 @@ I want to delete a bookmark
 As a user
 So I can change a bookmark in Bookmark Manager
 I want to update a bookmark
+
+As a user
+So that the bookmarks I save are useful
+I only want to save valid URLs
 ```
 ## Domain Model
 ![Bookmark Manager domain model](./public/Bookmark-manager-dm.png)
@@ -71,3 +75,7 @@ To set up the appropriate tables, connect to each database in `psql`
 This will show you the port that you should use in your browser (in this case it is `port=9292`).
 6. This program requires Firefox. Input the following into your Firefox brower:
 ```http://localhost:9292/```
+
+### Possible improvements
+* When inputting a url that doesn't include http or https, the program should automatically add this to the url. The flash warning should only appear if the program receives an error response from the server.
+* Styled warning box.
