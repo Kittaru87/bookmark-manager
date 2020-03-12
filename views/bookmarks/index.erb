@@ -24,11 +24,17 @@
       <form action="/bookmarks/<%= bookmark.id %>/tags/new" method "get">
         <input type="submit" value="Add tag" />
       </form>
-      <ul>
-        <% bookmark.tags.each do |tag| %>
-          <li> <%= tag.content %></li>
-        <% end %>
-      </ul>
+      <% if bookmark.tags.length > 0 %>
+        <ul>
+          <% bookmark.tags.each do |tag| %>
+            <li>
+              <a href="/tags/<%= tag.id %>/bookmarks">
+                <%= tag.content %>
+              </a>
+            </li>
+          <% end %>
+        </ul>
+    <% end %>
       <p>
     </li>
   <% end %>

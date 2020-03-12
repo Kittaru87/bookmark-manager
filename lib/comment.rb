@@ -1,5 +1,6 @@
+# frozen_string_literal: true
+
 class Comment
-  
   def self.create(bookmark_id:, text:)
     result = DatabaseConnection.query("INSERT INTO comments (bookmark_id, text) VALUES ('#{bookmark_id}','#{text}') RETURNING id, text, bookmark_id;")
     Comment.new(
@@ -27,5 +28,4 @@ class Comment
     @text = text
     @bookmark_id = bookmark_id
   end
-
 end

@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require_relative 'database_connection'
 
 class BookmarkTag
-
   def self.create(bookmark_id:, tag_id:)
     result = DatabaseConnection.query("INSERT INTO bookmarks_tags (bookmark_id, tag_id) VALUES('#{bookmark_id}', '#{tag_id}') RETURNING bookmark_id, tag_id;")
     BookmarkTag.new(
@@ -16,5 +17,4 @@ class BookmarkTag
     @bookmark_id = bookmark_id
     @tag_id = tag_id
   end
-
-end 
+end

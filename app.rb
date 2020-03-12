@@ -26,7 +26,9 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/bookmarks/new' do
-    flash[:notice] = "You must submit a valid URL." unless Bookmark.create(url: params[:url], title: params[:title])
+    unless Bookmark.create(url: params[:url], title: params[:title])
+      flash[:notice] = 'You must submit a valid URL.'
+    end
 
     redirect('/bookmarks')
   end
@@ -35,7 +37,7 @@ class BookmarkManager < Sinatra::Base
     Bookmark.delete(id: params[:id])
     redirect '/bookmarks'
   end
-  
+
   get '/bookmarks/:id/edit' do
     @bookmark = Bookmark.find(id: params[:id])
     erb :'bookmarks/edit'
@@ -67,6 +69,10 @@ class BookmarkManager < Sinatra::Base
     redirect '/bookmarks'
   end
 
-  run! if app_file == $PROGRAM_NAME
+  get '/tags/:id/bookmarks' do
+    @tag = Tag.find(id: params['id'])
+    erb :'tags/index'
+  end
 
+  run! if app_file == $PROGRAM_NAME
 end
