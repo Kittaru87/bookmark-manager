@@ -40,6 +40,10 @@ I want to update a bookmark
 As a user
 So that the bookmarks I save are useful
 I only want to save valid URLs
+
+As a user
+So that I can leave describe my bookmarks
+I want to be able to add comments to my bookmarks
 ```
 ## Domain Model
 ![Bookmark Manager domain model](./public/Bookmark-manager-dm.png)

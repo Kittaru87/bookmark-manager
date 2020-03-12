@@ -79,19 +79,69 @@
           1,
           null,
           null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/database_helpers.rb": {
         "lines": [
           null,
-          null,
+          1,
           1,
           null,
           1,
-          0,
-          0,
-          0,
+          3,
+          null
+        ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/comment_spec.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -115,6 +165,28 @@
           null,
           1,
           null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/adding_and_viewing_comments_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
           null,
           null,
           null
@@ -220,6 +292,6 @@
         ]
       }
     },
-    "timestamp": 1584008609
+    "timestamp": 1584014453
   }
 }
