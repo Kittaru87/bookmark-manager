@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'database_helpers'
 
 describe '.create' do
@@ -13,7 +15,6 @@ describe '.create' do
 end
 
 describe '.find' do
-
   it 'returns nil if there is no ID given' do
     expect(User.find(id: nil)).to eq nil
   end
@@ -25,7 +26,10 @@ describe '.find' do
     expect(result.id).to eq user.id
     expect(result.email).to eq user.email
   end
-end
 
-    
-    
+  it 'hashes the password using BCrypt' do
+    expect(BCrypt::Password).to receive(:create).with('password123')
+
+    User.create(email: 'test@example.com', password: 'password123')
+  end
+end

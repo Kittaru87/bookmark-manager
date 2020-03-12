@@ -6,6 +6,7 @@ git_source(:github) { |_repo_name| "https://github.com/#{bookmark - manager}" }
 
 ruby '2.6.3'
 
+gem 'bcrypt'
 gem 'capybara'
 gem 'pg'
 gem 'rake'

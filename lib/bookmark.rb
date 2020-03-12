@@ -29,7 +29,10 @@ class Bookmark
     return false unless is_url?(url)
 
     result = DatabaseConnection.query("INSERT INTO bookmarks (url, title) VALUES('#{url}', '#{title}') RETURNING id, title, url;")
-    Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
+    Bookmark.new(
+      id: result[0]['id'],
+      title: result[0]['title'],
+      url: result[0]['url'])
   end
 
   def self.delete(id:)
@@ -40,18 +43,30 @@ class Bookmark
 
   def self.update(id:, url:, title:)
     result = DatabaseConnection.query("UPDATE bookmarks SET url = '#{url}', title = '#{title}' WHERE id = #{id} RETURNING id, url, title;")
-    Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
+    Bookmark.new(
+      id: result[0]['id'],
+      title: result[0]['title'],
+      url: result[0]['url']
+    )
   end
 
   def self.find(id:)
     result = DatabaseConnection.query("SELECT * FROM bookmarks WHERE id = #{id};")
-    Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
+    Bookmark.new(
+      id: result[0]['id'],
+      title: result[0]['title'],
+      url: result[0]['url']
+    )
   end
 
   def self.where(tag_id:)
     result = DatabaseConnection.query("SELECT id, title, url FROM bookmarks_tags INNER JOIN bookmarks ON bookmarks.id = bookmarks_tags.bookmark_id WHERE bookmarks_tags.tag_id = '#{tag_id}';")
     result.map do |bookmark|
-      Bookmark.new(id: bookmark['id'], title: bookmark['title'], url: bookmark['url'])
+      Bookmark.new(
+        id: bookmark['id'],
+        title: bookmark['title'],
+        url: bookmark['url']
+      )
     end
   end
 
