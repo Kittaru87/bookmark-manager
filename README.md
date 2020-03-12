@@ -43,7 +43,12 @@ I only want to save valid URLs
 
 As a user
 So that I can leave describe my bookmarks
-I want to be able to add comments to my bookmarks
+I want to be able to add comments to my bookmark
+
+As a user
+So that I can categorize my bookmarks
+I want to add a Tag to a Bookmark
+
 ```
 ## Domain Model
 ![Bookmark Manager domain model](./public/Bookmark-manager-dm.png)

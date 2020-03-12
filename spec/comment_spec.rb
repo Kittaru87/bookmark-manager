@@ -18,7 +18,7 @@ describe Comment do
   end
 
   describe '.where' do
-    it 'gets the relevant comments from the databse' do
+    it 'gets the relevant comments from the database' do
       bookmark = Bookmark.create(url: "http://www.makersacademy.com", title: "Makers Academy")
       Comment.create(text: 'This is a test comment', bookmark_id: bookmark.id)
       Comment.create(text: 'This is a second test comment', bookmark_id: bookmark.id)
