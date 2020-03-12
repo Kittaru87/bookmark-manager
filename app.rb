@@ -3,6 +3,7 @@
 require 'sinatra'
 require 'sinatra/flash'
 require './lib/bookmark'
+require './lib/comment'
 require './lib/bookmark_tag'
 require './lib/tag'
 require './lib/database_connection_setup.rb'
@@ -10,6 +11,8 @@ require 'uri'
 
 class BookmarkManager < Sinatra::Base
   enable :sessions, :method_override
+  disable :strict_paths
+
   register Sinatra::Flash
 
   get '/' do

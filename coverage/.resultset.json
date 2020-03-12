@@ -120,12 +120,12 @@
           1,
           null,
           null,
-          null,
           null
         ]
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/database_helpers.rb": {
         "lines": [
+          null,
           null,
           1,
           1,
@@ -137,6 +137,8 @@
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/bookmark_tag_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -157,6 +159,7 @@
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/comment_spec.rb": {
         "lines": [
+          null,
           null,
           1,
           1,
@@ -197,6 +200,8 @@
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/database_connection_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -214,7 +219,6 @@
           1,
           null,
           1,
-          null,
           null,
           null,
           null
@@ -222,6 +226,8 @@
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/adding_and_viewing_comments_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -244,6 +250,8 @@
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/adding_and_viewing_tags_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -287,8 +295,6 @@
           1,
           1,
           1,
-          null,
-          null,
           null,
           null,
           null
@@ -315,7 +321,6 @@
           null,
           1,
           1,
-          null,
           null,
           null
         ]
@@ -395,16 +400,16 @@
       },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/tag_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
           null,
           1,
-          null,
           2,
           null,
           1,
-          null,
           1,
           1,
           1,
@@ -471,6 +476,6 @@
         ]
       }
     },
-    "timestamp": 1584031048
+    "timestamp": 1584034660
   }
 }
