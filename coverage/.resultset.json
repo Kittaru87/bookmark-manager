@@ -302,6 +302,23 @@
           null
         ]
       },
+      "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/authentication_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/sbell/Documents/Makers/bookmark-manager/spec/features/creating_bookmark_spec.rb": {
         "lines": [
           null,
@@ -515,6 +532,15 @@
           1,
           1,
           1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null,
           1,
@@ -534,6 +560,6 @@
         ]
       }
     },
-    "timestamp": 1584051304
+    "timestamp": 1584091725
   }
 }
