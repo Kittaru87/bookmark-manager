@@ -104,5 +104,11 @@ class BookmarkManager < Sinatra::Base
     erb :'tags/index'
   end
 
+  post '/sessions/destroy' do
+    session.clear
+    flash[:notice] = 'You have signed out.'
+    redirect('/bookmarks')
+  end
+
   run! if app_file == $PROGRAM_NAME
 end

@@ -47,3 +47,9 @@
   <%= flash[:notice] %>
 </h2>
 </p>
+<form action="/sessions" method="post">
+  <input type="submit" value="Sign in" />
+</form>
+<form action="/sessions/destroy" method="post">
+  <input type="submit" value="Sign out" />
+</form>
